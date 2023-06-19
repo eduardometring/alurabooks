@@ -17,7 +17,7 @@
     display:flex;
     align-items: center;
 }
-.container_imagem {
+.container__imagem {
     padding: 1em;
 }
 .lista-menu {
@@ -26,18 +26,18 @@
     top: 100%;
     width: 60vw;
 }
-.container_botao:checked~.lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
 }
-.lista-menu_titulo,
-.lista-menu_item {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
-.lista-menu_titulo {
+.lista-menu__titulo {
     color: var(--laranja);
 }
-.lista-menu_link {
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
